@@ -1,0 +1,36 @@
+// Add if else statement
+
+let secret = 15;
+
+if (userGuess === secret) {
+    console.log("Congratulations! You guessed the secret number!");
+} else {
+    console.log("Sorry! Try again!");
+}
+
+Guess a number: 15
+Congratulations! You guessed the secret number!
+Guess a number: 20
+Sorry! Try again!
+Guess a number: 10
+Sorry! Try again!               
+Guess a number: 17
+Sorry! Try again!
+Guess a number: 15
+Congratulations! You guessed the secret number!
+
+//Creating a loop
+
+while (userGuess !== secret) {
+    console.log("Sorry! Try again!");
+    userGuess = prompt("Guess a number:");
+}
+
+Guess a number: 20  
+Guess a number: 16
+Guess a number: 20
+Guess a number: 19
+Guess a number: 26
+Guess a number: 15
+Congratulations! You guessed the secret number!
+
